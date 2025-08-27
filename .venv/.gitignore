@@ -1,0 +1,45 @@
+# Arquivo .gitignore para o projeto de Teoria dos Conjuntos
+
+
+
+# Ambiente Virtual
+
+venv/
+
+.venv/
+
+
+
+# Cache e arquivos compilados do Python
+
+__pycache__/
+
+*.pyc
+
+*.pyo
+
+*.pyd
+
+
+
+# Arquivos gerados pelo PyInstaller
+
+dist/
+
+build/
+
+*.spec
+
+
+
+# Configurações de IDEs
+
+.vscode/
+
+
+
+# Arquivos de sistema operacional
+
+.DS_Store
+
+Thumbs.db
