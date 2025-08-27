@@ -27,17 +27,17 @@ def calcula_relacoes_binarias(A,B):
     print("\nDigite os números dos pares ordenados que deseja incluir na relação, separados por vírgula.")
     escolha = input("Separe por virgulas (ex: 1,3): ")
 
-        # 4. Constrói a Relação 'r' com base na escolha do usuário
+        # Bloco para construção das relações que o usuário escolher
     relacao_r = []
     try:
-        # Converte a string de entrada em uma lista de números
+       
         indices_escolhidos = [int(i.strip()) for i in escolha.split(',')]
         
         for indice in indices_escolhidos:
-            # Verifica se o número digitado é válido
+            
             if 1 <= indice <= len(relacoes_binarias_A_B):
                 par_escolhido = relacoes_binarias_A_B[indice - 1]
-                # Adiciona o par na relação final, evitando duplicatas
+                
                 if par_escolhido not in relacao_r:
                     relacao_r.append(par_escolhido)
             else:
@@ -45,27 +45,11 @@ def calcula_relacoes_binarias(A,B):
     
     except ValueError:
         print("\nErro: Entrada inválida. A relação não foi criada.")
-        return [] # Retorna uma lista vazia em caso de erro
+        return [] 
 
     print("\n------------------------------------------------------------")
-    print("A Relação Binária 'r' (subconjunto de A x B) definida por você é:")
+    print("A Relação Binária (subconjunto de A x B) que foi escolhida é:")
     print("r = ", relacao_r)
     print("------------------------------------------------------------")
     
     return relacao_r
-
-
-
-
-
-    # for a in A:
-
-    #     for b in B:
-            
-    #         par_ordenado_A_B = (a, b)
-            
-    #         produto_cartesiano_A_B.append(par_ordenado_A_B)
-
-    # print(f"O produto cartesiano A × B = {produto_cartesiano_A_B}")
-
-    # return produto_cartesiano_A_B

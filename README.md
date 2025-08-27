@@ -17,26 +17,16 @@ O programa suporta as seguintes operações:
 * **Relações Binárias:** Permite ao usuário definir uma relação como um subconjunto do produto cartesiano.
 * **Verificação de Pertinência:** Verifica se um par ordenado pertence a uma relação previamente definida.
 
-## 🚀 Como Usar
+### Linguagem
 
-### Pré-requisitos
-
-* Python 3.x
+* Python 3.xx
 
 ### Clone do Repositório
 
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+1.  ```bash
+    git clone [https://github.com/jeanr0cha/Teoria-dos-Conjuntos.git](https://github.com/jeanr0cha/Teoria-dos-Conjuntos.git)
     ```
-2.  Navegue até a pasta do projeto:
-    ```bash
-    cd SEU-REPOSITORIO
-    ```
-3.  Execute o script principal:
-    ```bash
-    python program.py
-    ```
+
 
 ### Caso Deseje gerar o executavel 
 
@@ -53,4 +43,4 @@ O programa suporta as seguintes operações:
 3.  O arquivo `TeoriaDosConjuntos.exe` estará na pasta `dist/`.
 
 ---
-*Desenvolvido em Agosto de 2025.*
+*Desenvolvido em Agosto de 2025, Por: Jean Da Rocha Braga e Filipe Tonane Portes*

@@ -9,12 +9,15 @@ from operacoes.pares_produto_cartesiano import calcula_produto_cartesiano
 from operacoes.relacoes_binarias import calcula_relacoes_binarias
 from operacoes.relacoes_n_areas import calcula_relacoes_n_areas
 
+# trecho que converte a entrda do usuario em conjunto
+# Também faz a alteração de uma entrada vazia para o símbolo 'λ'
+
 def converte_entrada_em_conjunto_a_b(entrada):
     elementos = [elem.strip() for elem in entrada.split(',')]
     conjunto = [] 
-    for elem in elementos:     # neste trecho convertemos valores vazio em 'λ' 
-        if elem == ' ':         # se for vazio, espaço no caso, converte para 'λ'
-            conjunto.add('λ')
+    for elem in elementos:
+        if elem == ' ':
+            conjunto('λ')
         else:
             try:
                 valor_elemento = int(elem)
@@ -31,7 +34,7 @@ def converte_entrada_em_conjunto_a_b(entrada):
 
 while True:
     os.system('cls')
-    print ("Representação dos conjuntos em Python\n\n")
+    print ("PROGRAMA PARA OPERAÇÕES DE CONJUNTOS - TEORIA DOS CONJUNTOS \n\n")
     
     conjunto_a = input("Digite os valores do conjunto A separados por vírgula: ")
     conjunto_b = input("Digite os valores do conjunto B separados por vírgula: ")
@@ -47,17 +50,18 @@ while True:
         print("============================================================\n\n")
         print ("Selecione uma das opções para fazer operações de conjuntos\n"
                "============================================================\n\n"
-               "1 - União A ∪ B\n" # ok
-               "2 - Interseção A ∩ B\n" # ok
-               "3 - Diferença A - B\n" # ok
-               "4 - Verificação de igualdae A == B\n" # ok
-               "5 - Subconjunto A ⊆ B\n" # ok
-               "6 - Desigualdade A ≠ B\n" # ok
-               "7 - Produto cartesiano A x B pares ordenados (a, b)\n" # ok
-               "8 - Relações Binarias\n" #ok
-               "9 - Relações n-áreas\n" #ok
-               "0 - Sair\n"
-               "10 - Digitar novos conjuntos\n\n")
+               "1 - União A ∪ B\n" 
+               "2 - Interseção A ∩ B\n" 
+               "3 - Diferença A - B\n" 
+               "4 - Verificação de igualdae A == B\n" 
+               "5 - Subconjunto A ⊆ B\n" 
+               "6 - Desigualdade A ≠ B\n" 
+               "7 - Produto cartesiano A x B pares ordenados (a, b)\n" 
+               "8 - Relações Binarias\n" 
+               "9 - Relações n-áreas\n" 
+               "10 - Digitar novos conjuntos\n\n"
+               "0 - Sair\n")
+               
         
         opcao = int(input("Digite a opção desejada: "))
 
@@ -98,7 +102,7 @@ while True:
                 print("Saindo...")
                 exit()
             case 10:
-                break  # Sai do laço interno e volta para digitar novos conjuntos
+                break 
 
         input("\nPressione Enter para continuar...")
 
