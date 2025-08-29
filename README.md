@@ -21,7 +21,7 @@ O programa suporta as seguintes operações:
 
 * Python 3.xx
 
-## ✨ Video exemplo em funcionamento
+# Video exemplo em funcionamento
 
 <!-- link https://youtu.be/lTpyyFu86FY -->
 
