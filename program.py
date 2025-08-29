@@ -16,8 +16,8 @@ def converte_entrada_em_conjunto_a_b(entrada):
     elementos = [elem.strip() for elem in entrada.split(',')]
     conjunto = [] 
     for elem in elementos:
-        if elem == ' ':
-            conjunto('λ')
+        if elem == '':
+            valor_elemento = 'λ'
         else:
             try:
                 valor_elemento = int(elem)

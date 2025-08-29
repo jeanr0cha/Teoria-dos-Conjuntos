@@ -4,7 +4,7 @@ def calcula_relacoes_n_areas(A, B):
 
     print("\n--- Relações n-áreas ---\n")
     print("Definição: Uma relação n-áreas é um subconjunto do produto cartesiano de n conjuntos.")
-    print("Por exemplo, uma relação entre os conjuntos A, B e C é um subconjunto de A × B × C.")
+    print("Por exemplo, uma relação entre os conjuntos A e B é um subconjunto de A × B")
     print("Iremos trabalhar com dois conjuntos A e B para formar pares ordenados (a, b)\n")
 
     # 1. Gera o produto cartesiano A x B
