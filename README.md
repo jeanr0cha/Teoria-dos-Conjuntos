@@ -21,6 +21,10 @@ O programa suporta as seguintes operações:
 
 * Python 3.xx
 
+## ✨ Video exemplo em funcionamento
+
+<!-- link https://youtu.be/lTpyyFu86FY -->
+
 ### Clone do Repositório
 
 1.  ```bash
