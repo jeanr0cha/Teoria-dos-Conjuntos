@@ -23,7 +23,7 @@ O programa suporta as seguintes operações:
 
 ## ✨ Video exemplo em funcionamento
 
-<!-- link https://youtu.be/lTpyyFu86FY -->
+[![Assista ao vídeo](https://img.youtube.com/vi/lTpyyFu86FY/0.jpg)](https://youtu.be/lTpyyFu86FY)
 
 ### Clone do Repositório
 
